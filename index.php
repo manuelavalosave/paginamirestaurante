@@ -1,3 +1,4 @@
+<?php
 // Hacemos un arreglo con datos de ejemplo
 $data = [
     'title' => 'Untitled-1',
@@ -5,11 +6,9 @@ $data = [
     'modified' => '2015-01-01',
     'id' => '1',
     'name' => 'Practica 1',
-    ]
+];
 
-echo "
-    <!-- Make a Table for the Data -->
-        <table class='table table-striped table-bordered table-hover'>
+echo "<table class='table table-striped table-bordered table-hover'>
         <thead>
             <tr>
                 <th>Name</th>
